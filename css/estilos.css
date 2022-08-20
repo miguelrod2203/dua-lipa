@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #aba8a4;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
