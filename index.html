@@ -8,10 +8,10 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <link rel='stylesheet' type='text/css' media='screen' href='./css/estilos.css'>
     </head>
-    <body>
+    <body class="container">
         <header>
             <nav class="header navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
+                <div class="container">
                     <a class="navbar-brand" href="./index.html">DuaLipa</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -29,14 +29,45 @@
               </nav>
         </header>
 
-        <main>
-            <h1>inicio</h1>
+        <main class="mainInicio container-fluid">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./imagenes/dua-lipa-1.jpg" class="d-block w-100" alt="dua lipa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/dua-lipa-2.jpg" class="d-block w-100" alt="dua lipa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/dua-lipa-3.jpg" class="d-block w-100" alt="dua lipa">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="./imagenes/dua-lipa-4.jpg" class="d-block w-100" alt="dua lipa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/dua-lipa-6.jpg" class="d-block w-100" alt="dua lipa">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="./imagenes/dua-lipa-7.jpg" class="d-block w-100" alt="dua lipa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/dua-lipa-8.jpg" class="d-block w-100" alt="dua lipa">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
         </main>
 
-
-
-
-        <aside class="aside container-fluid text-center">
+        <aside class="aside container text-center">
             <div class="row">
                 <div class="col-xs-12 col-sm-3 col-lg-4 ">
                     <a href="http:#">
