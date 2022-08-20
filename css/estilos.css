@@ -8,6 +8,9 @@ body {
     color: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.header {
-    display: flex;
+
+
+.footer img{
+    width: 100px;
+    border-radius: 20px;
 }
