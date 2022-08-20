@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #aba8a4;
+    background-color: #ffffff;
     color: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-.footer img{
-    width: 100px;
+.aside img{
+    width: 20%;
+    padding-top: 10px;
     border-radius: 20px;
+}
+.footer {
+    padding: 10px;
 }
