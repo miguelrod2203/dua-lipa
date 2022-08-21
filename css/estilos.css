@@ -10,7 +10,10 @@ body {
 }
 
 
-
+.mainNoticias p {
+    text-align: justify;
+    padding-bottom: 2px;
+}
 .aside img{
     width: 20%;
     padding-top: 10px;
