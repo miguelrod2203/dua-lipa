@@ -12,6 +12,13 @@ body {
 .mainAlbum .margen {
     padding-bottom: 10px;
 }
+
+.mainVideos iframe {
+    padding: 10px;
+}
+.ratio  {
+    width: 40% ;
+}
 .mainNoticias p {
     text-align: justify;
     padding-bottom: 2px;
