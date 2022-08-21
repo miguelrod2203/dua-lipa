@@ -9,7 +9,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+.mainAlbum .margen {
+    padding-bottom: 10px;
+}
 .mainNoticias p {
     text-align: justify;
     padding-bottom: 2px;
